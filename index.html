@@ -496,17 +496,22 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="" class="contact-form" method="post">
+              <form action="https://formsubmit.co/meghadrikoley9@gmail.com" class="contact-form" method="POST">
+                <input type="hidden" name="_next" value="https://meghadrikoley.vercel.app/">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+                  <input type="text" name="NAME" required placeholder="YOUR NAME" />
+                  <input type="email" name="EMAIL" required placeholder="YOUR EMAIL" />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input type="text" name="SUBJECT" required placeholder="ENTER SUBJECT" />
                 </div>
                 <div class="input-control">
                   <textarea
-                    name=""
+                    name="Message"
                     id=""
                     cols="15"
                     rows="8"

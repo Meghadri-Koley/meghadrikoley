@@ -551,9 +551,13 @@
     <script src="app.js"></script>
     <script>
       var loader = document.getElementById("preloader");
-      window.addEventListener("load", function () {
-          loader.style.display = "none";
-        });
+      // window.addEventListener("load", function () {
+      //     loader.style.display = "none";
+      //   });
+      function load(){
+      loader.style.display="none";
+      }
+      setTimeout(load,5000);
     </script>
   </body>
 </html>
